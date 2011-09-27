@@ -1,0 +1,157 @@
+/*
+	http://unobtrusify.com
+
+	Hello there!  Thanks for coming over to look at the CSS. You are most welcome.
+	Good luck with your unobtrusifying!
+	- Phil 
+	- http://hawksworx.com
+	- http://twitter.com/philhawksworth
+*/
+
+body {
+	font-family: 'Georgia';
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.3;
+	color: #333;
+	margin:0;
+	padding:0;
+}
+
+a:link,
+a:visited {
+	color:#1E52CD;
+	text-decoration:none;
+}
+a:hover,
+a:focus {
+	color:#1E52CD;
+	text-decoration:underline;
+}
+
+.js div#wrapper > div { display: none;}
+
+div#wrapper {
+	width: 380px;
+	margin: 100px auto;
+}
+div#wrapper > a {
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+div#wrapper p { 
+	width:100%;
+	margin:1em 0;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.stupidIE6 {
+	background-image: url(images/unobtrusive_hover_for_ie6.gif);	
+}
+
+div#wrapper > a, a#creativecommons {
+	display:block;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+	background-image: url(images/unobtrusive_sprite.gif);
+	width: 380px;
+}
+
+#uj {
+	background-position: 0 0;
+	height: 123px;
+}
+#cmh {
+	background-position: 0 -123px;
+	height: 150px;
+}
+#dmt {
+	background-position: 0 -273px;
+	height: 40px;
+}
+#wr {
+	background-position: 0 -313px;
+	height: 35px;
+}
+#te {
+	background-position: 0 -348px;
+	height: 55px;
+}
+#ftlf {
+	background-position: 0 -403px;
+	height: 20px;
+}
+
+#uj.clickable:hover, 
+#uj.clickable:focus {
+	background-position: -392px 0;
+}
+#cmh.clickable:hover,
+#cmh.clickable:focus  {
+	background-position: -392px -123px;
+}
+#dmt.clickable:hover,
+#dmt.clickable:focus  {
+	background-position: -392px -273px;
+}
+#wr.clickable:hover,
+#wr.clickable:focus  {
+	background-position: -392px -313px;
+}
+#te.clickable:hover,
+#te.clickable:focus  {
+	background-position: -392px -348px;
+}
+#ftlf.clickable:hover,
+#ftlf.clickable:focus  {
+	background-position: -392px -403px;
+}
+
+a#creativecommons {
+	display:block;
+	margin-top:2px;
+	background-position:-0 -426px;
+	height:29px;
+}
+a#creativecommons:hover,
+a#creativecommons:focus {
+	background-position:-392px -426px;
+}
+
+div#banner {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color:#eee;
+	font-size:0.7em;
+	color:#666;
+	text-align:right;
+	font-style:italic;
+}
+
+	div#banner p {
+		padding:1em;
+		margin:0;
+	}
+	
+	div#banner a:link,
+	div#banner a:visited {
+		color:#666;
+		text-decoration:none;
+		border-bottom:solid 1px #1E52CD;
+	}
+	div#banner a:hover,
+	div#banner a:focus {
+		color:#1E52CD;
+	}
+
