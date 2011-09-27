@@ -1,19 +1,6 @@
 # Fabric for deploying unobtrusify.com
 
 from fabric.api import *
-import os
-
-# PROD = 'unobtrusify.com'
-# DEST_PATH = '/var/www/unobtrusify.com'
-# ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
-# DEPLOY_PATH = os.path.join(ROOT_PATH, 'production_site')
-
-
-
-# django.settings_module('ebay.config.europe.settings.local')
-# from django.conf import settings
-
-# env.project = "unobtrusify"
 
 # SERVER
 PRODUCTION = '46.51.184.117'
