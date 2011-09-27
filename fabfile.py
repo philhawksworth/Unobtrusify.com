@@ -26,7 +26,7 @@ def production():
     env.path = '/var/www/unobtrusify.com'
     env.user = 'ubuntu'
     env.key_filename  = '/Users/phil.hawksworth/.ssh/philhawksworth-aws.pem'
-    env.apache = ['unobtrusify.com', ]
+    env.apache = 'unobtrusify.com'
     env.release_path = "/var/releases/unobtrusify.com"
 
 
@@ -43,9 +43,8 @@ def export_release():
 
 def copy_apache():
     """Copies the apache file to the appropriate location."""
-    command = 'cp %s/current/etc/apache2/%s /etc/apache2/sites-available/'
-    for config in env.apache:
-        sudo(command % (env.path, config))
+    command = 'cp %(release_path)s/etc/apache2/%(apache)s /etc/apache2/sites-available/'
+    sudo(command % env)
 
 
 def restart():
