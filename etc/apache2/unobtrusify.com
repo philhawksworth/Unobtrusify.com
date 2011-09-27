@@ -12,5 +12,7 @@
         Order deny,allow
         Allow from all
     </Directory>
+    
+    DocumentRoot /var/www/unobtrusify.com/
 
 </VirtualHost>
