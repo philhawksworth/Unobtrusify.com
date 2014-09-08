@@ -1,0 +1,26 @@
+{
+  "name": "Unobtrusify.com",
+  "version": "0.1.0",
+  "description": "A simple static site to demonstrate some unobtrusive Javascript principles.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/philhawksworth/Unobtrusify.com.git"
+  },
+  "keywords": [
+    "Unobtrusive",
+    "Javascript"
+  ],
+  "author": "Phil Hawksworth",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/philhawksworth/Unobtrusify.com/issues"
+  },
+  "dependencies": {
+    "gulp-shell": "~0.2.9",
+    "gulp": "~3.8.8"
+  }
+}
