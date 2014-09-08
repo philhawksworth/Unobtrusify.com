@@ -15,7 +15,7 @@ body {
 	line-height: 1.3;
 	color: #333;
 	margin:0;
-	padding:0;
+	padding:0 50px;
 }
 
 a:link,
@@ -35,6 +35,7 @@ div#wrapper {
 	width: 380px;
 	margin: 100px auto;
 }
+
 div#wrapper > a {
 	text-align: center;
 	padding:0;
@@ -54,7 +55,8 @@ div#wrapper p {
 	background-image: url(images/unobtrusive_hover_for_ie6.gif);	
 }
 
-div#wrapper > a, a#creativecommons {
+div#wrapper > a, 
+a#creativecommons {
 	display:block;
 	margin: 0;
 	padding: 0;
