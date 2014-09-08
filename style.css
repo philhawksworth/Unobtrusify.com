@@ -134,6 +134,7 @@ div#banner {
 	margin:0;
 	padding:0;
 	width:100%;
+	min-width:480px;
 	background-color:#eee;
 	font-size:0.7em;
 	color:#666;
