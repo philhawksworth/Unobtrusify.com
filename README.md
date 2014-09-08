@@ -1,4 +1,4 @@
-Unobtrusify.com
+Unobtrusify
 ====
 
-A simple static site to demonstrate some unobtrusive Javascript principles.
+[http://unobtrusify.com]() A simple static site to demonstrate some unobtrusive Javascript principles.
